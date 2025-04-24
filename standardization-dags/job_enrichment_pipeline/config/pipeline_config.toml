@@ -1,0 +1,15 @@
+[pipeline]
+batch_size = 1000
+batch_size_per_dag_run = 1000
+
+[llm]
+model = "gemini-2.5-flash-preview-04-17"
+default_prompt_version = "v1"
+
+[llm.generation_config]
+temperature = 0.2
+top_p = 0.95
+top_k = 40
+max_output_tokens = 65536
+response_mime_type = "text/plain"
+thinking_budget = 0

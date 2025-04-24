@@ -1,0 +1,7 @@
+*.tfstate
+*.tfstate.backup
+*.terraform/
+Linkedin member sample dataset
+.env
+enrich-ext-key.json
+grant_sql_iam_access.sh
